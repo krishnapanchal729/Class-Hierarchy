@@ -40,16 +40,14 @@ int
 main ()
 {
   Triangle t;
-  Shape *st = &t;
   cout << "Enter the value of base and height:";
-  st->get_value ();
-  st->get_Area ();
+  t.get_value ();
+  t.get_Area ();
 
   Rectangle r;
-  Shape *sr = &r;
   cout << "Enter the value of length and breadth:";
-  sr->get_value ();
-  sr->get_Area ();
+  r.get_value ();
+  r.get_Area ();
 
   getch ();
   return 0;
